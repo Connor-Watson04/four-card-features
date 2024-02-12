@@ -1,0 +1,130 @@
+body {
+  font-family: "poppins";
+}
+
+.whole {
+  margin-top: 5rem;
+}
+/* ////// */
+/* Header */
+/* ////// */
+.heading {
+  text-align: center;
+  width: 500px;
+  margin-left: 31.5rem;
+}
+
+.heading-primary {
+  font-size: 35px;
+
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+
+.heading-thick {
+  font-weight: 600;
+}
+
+.text {
+  color: hsl(229, 6%, 66%);
+}
+/* ///// */
+/* Boxes */
+/* ///// */
+
+.box-heading {
+  color: hsl(234, 12%, 34%);
+}
+
+.supervisor-box {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  width: 350px;
+  border-radius: 11px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 0px 12px 30px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.2rem 1.2rem 2.4rem;
+  position: relative;
+  top: 200px;
+  left: 110px;
+}
+
+.box-text {
+  padding-right: 3rem;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 4.2rem;
+}
+
+.box-icon {
+  text-align: end;
+}
+
+.team-box {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  width: 350px;
+  border-radius: 11px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 0px 12px 30px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.2rem 1.2rem 2.4rem;
+  position: relative;
+  top: -250px;
+  left: 555px;
+}
+
+.karma-box {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  width: 350px;
+  border-radius: 11px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 0px 12px 30px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.2rem 1.2rem 2.4rem;
+  position: relative;
+  left: 555px;
+  top: -200px;
+}
+
+.calculator-box {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  width: 350px;
+  border-radius: 11px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 0px 12px 30px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.2rem 1.2rem 2.4rem;
+  position: relative;
+  left: 1000px;
+  top: -670px;
+}
+
+@media (max-width: 376px) {
+  body {
+    overflow-x: hidden;
+    margin-left: 0.5rem;
+  }
+  .supervisor-box,
+  .team-box,
+  .karma-box,
+  .calculator-box {
+    display: block;
+    left: 0;
+    top: 0;
+    width: 300px;
+    margin-bottom: 1.2rem;
+  }
+
+  .heading {
+    margin: 0;
+    width: auto;
+    padding: 0;
+  }
+
+  .text {
+    padding: 1.2rem;
+  }
+  .heading-primary {
+    padding: 0;
+    font-size: 25px;
+  }
+}
